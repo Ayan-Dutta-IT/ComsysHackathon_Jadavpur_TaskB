@@ -19,7 +19,6 @@ FaceMatchingProject/
 │               └── dist2.jpg
 ├── model/
 │   └── siamese_model.h5
-├── embeddings/
 ├── train.py
 ├── test.py
 ├── utils.py
@@ -71,6 +70,8 @@ python train.py
 ---
 
 ## 🧪 Testing
+The model folder should be created and weights to be downloaded from below drive link,
+Link - https://drive.google.com/file/d/1LoOoB0grg2rIVI2RJETyKy-ljvq_nbdJ/view?usp=sharing
 
 ```bash
 python test.py
