@@ -39,7 +39,7 @@ print("Loading embedding model...")
 embedding_model = build_embedding_model()
 embedding_model.load_weights('model/siamese_model.h5', by_name=True, skip_mismatch=True)
 
-test_dir = 'data/val'
+test_dir = 'data/test'
 test_data = get_test_pairs(test_dir)
 
 y_true = []
